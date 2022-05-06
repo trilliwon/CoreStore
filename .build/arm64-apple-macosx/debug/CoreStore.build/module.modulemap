@@ -1,0 +1,4 @@
+module CoreStore {
+    header "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStore-Swift.h"
+    requires objc
+}

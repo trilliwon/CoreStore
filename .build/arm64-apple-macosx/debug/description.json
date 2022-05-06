@@ -1,0 +1,2472 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStorePackageTests.xctest/Contents/MacOS/CoreStorePackageTests",
+      "productName" : "CoreStorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftCommands" : {
+    "C.CoreStore-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/AsynchronousDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/AttributeProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/BaseDataTransaction+Importing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/BaseDataTransaction+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/BaseDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSAsynchronousDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSBaseDataTransaction+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSBaseDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSClauseTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSCoreStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Migrating.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Observing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Transaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSDynamicSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSFrom.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSGroupBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSInMemoryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSInto.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSListMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSListObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSMigrationResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSMigrationType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSObjectMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSObjectObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSOrderBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSSQliteStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSSectionBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSSelect.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSSetupResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSStorageInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSSynchronousDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSTweak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSUnsafeDataModelSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSUnsafeDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSWhere.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CSXcodeDataModelSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreDataNativeType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStore+CustomDebugStringConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStore+Logging.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreBridge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreDefaults.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreManagedObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+Convenience.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+DataSources.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+Observing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreStrings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/CustomSchemaMappingProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+DataSources.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Migration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Observing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Reactive.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Transaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack.AddStoragePublisher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DataStack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DefaultLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.BaseAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.CollectionViewAdapter-AppKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.CollectionViewAdapter-UIKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.TableViewAdapter-UIKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.Target.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSourceSnapshotProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Differentiable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DispatchQueue+CoreStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DynamicObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DynamicSchema+Convenience.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/DynamicSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Entity.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/EnvironmentValues+DataSources.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FIeldRelationshipType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FetchChainBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FetchableSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Field.Coded.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Field.Relationship.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Field.Stored.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Field.Virtual.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Field.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldAttributeProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoderType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.DefaultNSSecureCoding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.Json.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.NSCoding.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.Plist.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldOptionalType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldRelationshipProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/FieldStorableType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ForEach+SwiftUI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/From+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/From.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/GroupBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ImportableAttributeType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ImportableObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ImportableUniqueObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/InMemoryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/InferredSchemaMappingProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.AnyFieldCoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.Closure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.CoreStoreFetchRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.CoreStoreFetchedResultsController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataSourceSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.Changeset.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.DiffResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.StagedChangeset.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.EntityIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.FetchedDiffableDataSourceSnapshotDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.FetchedResultsControllerDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.LazyNonmutating.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.MigrationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.NotificationObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.SharedNotificationObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.WeakObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Internals.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Into.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/KeyPath+KeyPaths.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/KeyPath+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/KeyPathGenericBindings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/KeyPathStringConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListPublisher+Reactive.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListPublisher.SnapshotPublisher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListPublisher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListSnapshot.SectionInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ListState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/MigrationChain.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/MigrationResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/MigrationType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSEntityDescription+DynamicModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSEntityDescription+Migration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSFetchedResultsController+Convenience.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+Convenience.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+DynamicModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+Logging.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+ObjectiveC.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+Transaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+CoreStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Logging.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Querying.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Setup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Transaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectModel+Migration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSPersistentStore+Setup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/NSPersistentStoreCoordinator+Setup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectProxy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectPublisher+Reactive.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectPublisher.SnapshotPublisher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectPublisher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectRepresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/ObjectState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/OrderBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/PartialObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Progress+Convenience.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Progress+ObjectiveC.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/PropertyProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/QueryChainBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/QueryableAttributeType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/QueryableSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.ToManyOrdered.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.ToManyUnordered.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.ToOne.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/RelationshipProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SQLiteStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SchemaHistory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SchemaMappingProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SectionBy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SectionMonitorBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Select.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SetupResult.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/StorageInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/String+KeyPaths.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/SynchronousDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Transformable.Optional.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Transformable.Required.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Transformable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Tweak.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/TypeErasedClauses.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/UnsafeDataModelSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/UnsafeDataTransaction+Observing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/UnsafeDataTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/UserInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Value.Optional.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Value.Required.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Value.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/VersionLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Where.Expression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/Where.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/WhereClauseType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/XcodeDataModelSchema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/Sources/XcodeSchemaMappingProvider.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CoreStore",
+      "moduleOutputPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.swiftmodule",
+      "objects" : [
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/AsynchronousDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/AttributeProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/BaseDataTransaction+Importing.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/BaseDataTransaction+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/BaseDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSAsynchronousDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSBaseDataTransaction+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSBaseDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSClauseTypes.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSCoreStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Migrating.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Observing.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Transaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDynamicSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSError.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSFrom.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSGroupBy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSInMemoryStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSInto.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSListMonitor.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSListObserver.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSMigrationResult.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSMigrationType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSObjectMonitor.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSObjectObserver.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSOrderBy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSQliteStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSectionBy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSelect.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSetupResult.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSStorageInterface.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSynchronousDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSTweak.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSUnsafeDataModelSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSUnsafeDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSWhere.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSXcodeDataModelSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreDataNativeType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStore+CustomDebugStringConvertible.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStore+Logging.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreBridge.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreDefaults.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreError.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreLogger.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreManagedObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+Convenience.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+DataSources.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+Observing.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreStrings.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CustomSchemaMappingProvider.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+DataSources.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Migration.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Observing.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Reactive.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Transaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack.AddStoragePublisher.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DefaultLogger.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.BaseAdapter.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.CollectionViewAdapter-AppKit.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.CollectionViewAdapter-UIKit.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.TableViewAdapter-UIKit.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.Target.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSourceSnapshotProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Differentiable.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DispatchQueue+CoreStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DynamicObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DynamicSchema+Convenience.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DynamicSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Entity.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/EnvironmentValues+DataSources.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FIeldRelationshipType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FetchChainBuilder.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FetchableSource.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Coded.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Relationship.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Stored.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Virtual.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldAttributeProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoderType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.DefaultNSSecureCoding.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.Json.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.NSCoding.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.Plist.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldOptionalType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldRelationshipProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldStorableType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ForEach+SwiftUI.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/From+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/From.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/GroupBy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ImportableAttributeType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ImportableObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ImportableUniqueObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/InMemoryStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/InferredSchemaMappingProvider.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.AnyFieldCoder.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.Closure.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.CoreStoreFetchRequest.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.CoreStoreFetchedResultsController.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataSourceSnapshot.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.Changeset.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.DiffResult.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.StagedChangeset.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.EntityIdentifier.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.FetchedDiffableDataSourceSnapshotDelegate.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.FetchedResultsControllerDelegate.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.LazyNonmutating.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.MigrationManager.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.NotificationObserver.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.SharedNotificationObserver.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.WeakObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Into.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPath+KeyPaths.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPath+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPathGenericBindings.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPathStringConvertible.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListMonitor.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListObserver.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListPublisher+Reactive.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListPublisher.SnapshotPublisher.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListPublisher.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListReader.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListSnapshot.SectionInfo.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListSnapshot.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListState.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/MigrationChain.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/MigrationResult.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/MigrationType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSEntityDescription+DynamicModel.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSEntityDescription+Migration.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSFetchedResultsController+Convenience.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+Convenience.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+DynamicModel.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+Logging.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+ObjectiveC.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+Transaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+CoreStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Logging.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Querying.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Setup.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Transaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectModel+Migration.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSPersistentStore+Setup.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSPersistentStoreCoordinator+Setup.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectMonitor.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectObserver.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectProxy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectPublisher+Reactive.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectPublisher.SnapshotPublisher.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectPublisher.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectReader.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectRepresentation.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectSnapshot.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectState.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/OrderBy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/PartialObject.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Progress+Convenience.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Progress+ObjectiveC.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/PropertyProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/QueryChainBuilder.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/QueryableAttributeType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/QueryableSource.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.ToManyOrdered.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.ToManyUnordered.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.ToOne.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/RelationshipProtocol.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SQLiteStore.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SchemaHistory.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SchemaMappingProvider.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SectionBy.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SectionMonitorBuilder.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Select.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SetupResult.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/StorageInterface.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/String+KeyPaths.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SynchronousDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Transformable.Optional.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Transformable.Required.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Transformable.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Tweak.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/TypeErasedClauses.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UnsafeDataModelSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UnsafeDataTransaction+Observing.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UnsafeDataTransaction.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UserInfo.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Value.Optional.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Value.Required.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Value.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/VersionLock.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Where.Expression.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Where.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/WhereClauseType.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/XcodeDataModelSchema.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/XcodeSchemaMappingProvider.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/index/store",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStore-Swift.h"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/AsynchronousDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/AttributeProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/BaseDataTransaction+Importing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/BaseDataTransaction+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/BaseDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSAsynchronousDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSBaseDataTransaction+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSBaseDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSClauseTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSCoreStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Migrating.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Observing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack+Transaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSDynamicSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSFrom.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSGroupBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSInMemoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSInto.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSListMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSListObserver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSMigrationResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSMigrationType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSObjectMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSObjectObserver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSOrderBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSQliteStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSectionBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSelect.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSetupResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSStorageInterface.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSSynchronousDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSTweak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSUnsafeDataModelSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSUnsafeDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSWhere.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CSXcodeDataModelSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreDataNativeType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStore+CustomDebugStringConvertible.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStore+Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreBridge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreDefaults.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreManagedObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+Convenience.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+DataSources.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+Observing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CoreStoreStrings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/CustomSchemaMappingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+DataSources.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Migration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Observing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Reactive.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack+Transaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack.AddStoragePublisher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DataStack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DefaultLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.BaseAdapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.CollectionViewAdapter-AppKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.CollectionViewAdapter-UIKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.TableViewAdapter-UIKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.Target.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DiffableDataSourceSnapshotProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Differentiable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DispatchQueue+CoreStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DynamicObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DynamicSchema+Convenience.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/DynamicSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Entity.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/EnvironmentValues+DataSources.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FIeldRelationshipType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FetchChainBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FetchableSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Coded.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Relationship.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Stored.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.Virtual.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Field.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldAttributeProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoderType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.DefaultNSSecureCoding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.Json.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.NSCoding.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.Plist.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldCoders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldOptionalType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldRelationshipProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/FieldStorableType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ForEach+SwiftUI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/From+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/From.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/GroupBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ImportableAttributeType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ImportableObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ImportableUniqueObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/InMemoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/InferredSchemaMappingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.AnyFieldCoder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.Closure.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.CoreStoreFetchRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.CoreStoreFetchedResultsController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataSourceSnapshot.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.Changeset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.DiffResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.StagedChangeset.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.DiffableDataUIDispatcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.EntityIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.FetchedDiffableDataSourceSnapshotDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.FetchedResultsControllerDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.LazyNonmutating.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.MigrationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.NotificationObserver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.SharedNotificationObserver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.WeakObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Internals.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Into.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPath+KeyPaths.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPath+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPathGenericBindings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/KeyPathStringConvertible.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListObserver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListPublisher+Reactive.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListPublisher.SnapshotPublisher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListPublisher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListSnapshot.SectionInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListSnapshot.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ListState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/MigrationChain.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/MigrationResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/MigrationType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSEntityDescription+DynamicModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSEntityDescription+Migration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSFetchedResultsController+Convenience.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+Convenience.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+DynamicModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+ObjectiveC.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObject+Transaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+CoreStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Querying.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Setup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectContext+Transaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSManagedObjectModel+Migration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSPersistentStore+Setup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/NSPersistentStoreCoordinator+Setup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectObserver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectProxy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectPublisher+Reactive.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectPublisher.SnapshotPublisher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectPublisher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectRepresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectSnapshot.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/ObjectState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/OrderBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/PartialObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Progress+Convenience.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Progress+ObjectiveC.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/PropertyProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/QueryChainBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/QueryableAttributeType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/QueryableSource.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.ToManyOrdered.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.ToManyUnordered.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.ToOne.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Relationship.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/RelationshipProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SQLiteStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SchemaHistory.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SchemaMappingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SectionBy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SectionMonitorBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Select.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SetupResult.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/StorageInterface.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/String+KeyPaths.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/SynchronousDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Transformable.Optional.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Transformable.Required.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Transformable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Tweak.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/TypeErasedClauses.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UnsafeDataModelSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UnsafeDataTransaction+Observing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UnsafeDataTransaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/UserInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Value.Optional.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Value.Required.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Value.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/VersionLock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Where.Expression.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/Where.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/WhereClauseType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/XcodeDataModelSchema.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build/XcodeSchemaMappingProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/won.j/trilliwon/CoreStore/Sources/AsynchronousDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/AttributeProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/BaseDataTransaction+Importing.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/BaseDataTransaction+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/BaseDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSAsynchronousDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSBaseDataTransaction+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSBaseDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSClauseTypes.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSCoreStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Migrating.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Observing.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack+Transaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSDataStack.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSDynamicSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSError.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSFrom.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSGroupBy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSInMemoryStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSInto.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSListMonitor.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSListObserver.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSMigrationResult.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSMigrationType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSObjectMonitor.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSObjectObserver.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSOrderBy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSSQliteStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSSectionBy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSSelect.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSSetupResult.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSStorageInterface.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSSynchronousDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSTweak.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSUnsafeDataModelSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSUnsafeDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSWhere.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CSXcodeDataModelSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreDataNativeType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStore+CustomDebugStringConvertible.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStore+Logging.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreBridge.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreDefaults.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreError.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreLogger.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreManagedObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+Convenience.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+DataSources.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+Observing.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CoreStoreStrings.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/CustomSchemaMappingProvider.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+DataSources.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Migration.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Observing.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Reactive.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack+Transaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack.AddStoragePublisher.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DataStack.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DefaultLogger.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.BaseAdapter.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.CollectionViewAdapter-AppKit.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.CollectionViewAdapter-UIKit.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.TableViewAdapter-UIKit.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.Target.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSource.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DiffableDataSourceSnapshotProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Differentiable.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DispatchQueue+CoreStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DynamicObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DynamicSchema+Convenience.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/DynamicSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Entity.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/EnvironmentValues+DataSources.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FIeldRelationshipType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FetchChainBuilder.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FetchableSource.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Field.Coded.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Field.Relationship.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Field.Stored.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Field.Virtual.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Field.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldAttributeProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoderType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.DefaultNSSecureCoding.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.Json.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.NSCoding.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.Plist.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldCoders.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldOptionalType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldRelationshipProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/FieldStorableType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ForEach+SwiftUI.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/From+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/From.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/GroupBy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ImportableAttributeType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ImportableObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ImportableUniqueObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/InMemoryStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/InferredSchemaMappingProvider.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.AnyFieldCoder.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.Closure.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.CoreStoreFetchRequest.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.CoreStoreFetchedResultsController.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataSourceSnapshot.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.Changeset.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.DiffResult.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.StagedChangeset.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.DiffableDataUIDispatcher.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.EntityIdentifier.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.FetchedDiffableDataSourceSnapshotDelegate.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.FetchedResultsControllerDelegate.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.LazyNonmutating.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.MigrationManager.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.NotificationObserver.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.SharedNotificationObserver.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.WeakObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Internals.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Into.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/KeyPath+KeyPaths.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/KeyPath+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/KeyPathGenericBindings.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/KeyPathStringConvertible.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListMonitor.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListObserver.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListPublisher+Reactive.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListPublisher.SnapshotPublisher.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListPublisher.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListReader.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListSnapshot.SectionInfo.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListSnapshot.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ListState.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/MigrationChain.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/MigrationResult.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/MigrationType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSEntityDescription+DynamicModel.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSEntityDescription+Migration.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSFetchedResultsController+Convenience.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+Convenience.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+DynamicModel.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+Logging.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+ObjectiveC.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObject+Transaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+CoreStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Logging.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Querying.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Setup.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectContext+Transaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSManagedObjectModel+Migration.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSPersistentStore+Setup.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/NSPersistentStoreCoordinator+Setup.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectMonitor.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectObserver.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectProxy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectPublisher+Reactive.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectPublisher.SnapshotPublisher.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectPublisher.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectReader.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectRepresentation.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectSnapshot.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/ObjectState.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/OrderBy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/PartialObject.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Progress+Convenience.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Progress+ObjectiveC.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/PropertyProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/QueryChainBuilder.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/QueryableAttributeType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/QueryableSource.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.ToManyOrdered.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.ToManyUnordered.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.ToOne.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Relationship.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/RelationshipProtocol.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SQLiteStore.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SchemaHistory.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SchemaMappingProvider.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SectionBy.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SectionMonitorBuilder.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Select.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SetupResult.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/StorageInterface.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/String+KeyPaths.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/SynchronousDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Transformable.Optional.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Transformable.Required.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Transformable.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Tweak.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/TypeErasedClauses.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/UnsafeDataModelSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/UnsafeDataTransaction+Observing.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/UnsafeDataTransaction.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/UserInfo.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Value.Optional.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Value.Required.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Value.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/VersionLock.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Where.Expression.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/Where.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/WhereClauseType.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/XcodeDataModelSchema.swift",
+        "/Users/won.j/trilliwon/CoreStore/Sources/XcodeSchemaMappingProvider.swift"
+      ],
+      "tempsPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CoreStoreTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/BaseTestCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/BaseTestDataTestCase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ConvenienceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/DynamicModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ErrorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/FetchTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/FromTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/GroupByTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ImportTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/IntoTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ListObserverTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ListPublisherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/MigrationChainTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ObjectObserverTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ObjectPublisherTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/OrderByTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/QueryTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/SectionByTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/SelectTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/SetupTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/StorageInterfaceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TestEntity1.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TestEntity2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TransactionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TweakTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/VersionLockTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/WhereTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStore.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CoreStoreTests",
+      "moduleOutputPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.swiftmodule",
+      "objects" : [
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/BaseTestCase.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/BaseTestDataTestCase.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ConvenienceTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/DynamicModelTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ErrorTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/FetchTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/FromTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/GroupByTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ImportTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/IntoTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ListObserverTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ListPublisherTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/MigrationChainTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ObjectObserverTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ObjectPublisherTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/OrderByTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/QueryTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/SectionByTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/SelectTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/SetupTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/StorageInterfaceTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TestEntity1.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TestEntity2.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TransactionTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TweakTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/VersionLockTests.swift.o",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/WhereTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/index/store",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/BaseTestCase.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/BaseTestDataTestCase.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ConvenienceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/DynamicModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ErrorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/FetchTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/FromTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/GroupByTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ImportTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/IntoTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ListObserverTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ListPublisherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/MigrationChainTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ObjectObserverTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/ObjectPublisherTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/OrderByTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/QueryTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/SectionByTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/SelectTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/SetupTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/StorageInterfaceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TestEntity1.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TestEntity2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TransactionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/TweakTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/VersionLockTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build/WhereTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/BaseTestCase.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/BaseTestDataTestCase.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ConvenienceTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/DynamicModelTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ErrorTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/FetchTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/FromTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/GroupByTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ImportTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/IntoTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ListObserverTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ListPublisherTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/MigrationChainTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ObjectObserverTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/ObjectPublisherTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/OrderByTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/QueryTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/SectionByTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/SelectTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/SetupTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/StorageInterfaceTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TestEntity1.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TestEntity2.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TransactionTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/TweakTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/VersionLockTests.swift",
+        "/Users/won.j/trilliwon/CoreStore/CoreStoreTests/WhereTests.swift"
+      ],
+      "tempsPath" : "/Users/won.j/trilliwon/CoreStore/.build/arm64-apple-macosx/debug/CoreStoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

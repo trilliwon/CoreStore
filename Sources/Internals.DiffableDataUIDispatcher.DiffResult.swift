@@ -190,7 +190,7 @@ extension Internals.DiffableDataUIDispatcher {
         
         // MARK: Private
         
-        @inlinable
+        @usableFromInline
         internal init(
             deleted: [Index] = [],
             inserted: [Index] = [],
@@ -207,8 +207,7 @@ extension Internals.DiffableDataUIDispatcher {
             self.sourceTraces = sourceTraces
             self.targetReferences = targetReferences
         }
-        
-        
+
         // MARK: - Trace
 
         // Implementation based on https://github.com/ra1028/DifferenceKit
@@ -219,13 +218,17 @@ extension Internals.DiffableDataUIDispatcher {
             internal var reference: Index?
             
             @usableFromInline
-            internal var deleteOffset = 0
+            internal var deleteOffset: Int
             
             @usableFromInline
-            internal var isTracked = false
+            internal var isTracked: Bool
             
-            @inlinable
-            init() {}
+            @usableFromInline
+            init() {
+                self.reference = nil
+                self.deleteOffset = 0
+                self.isTracked = false
+            }
         }
         
         
@@ -251,11 +254,14 @@ extension Internals.DiffableDataUIDispatcher {
             
             @usableFromInline
             internal var position = 0
+
+            public init(indices: ContiguousArray<Int>) {
+                self.indices = indices 
+            }
             
             @inlinable
-            internal init(_ indices: ContiguousArray<Int>) {
-                
-                self.indices = indices
+            internal convenience init(_ indices: ContiguousArray<Int>) { 
+                self.init(indices: indices)
             }
             
             @inlinable
@@ -287,16 +293,20 @@ extension Internals.DiffableDataUIDispatcher {
         internal struct TableKey<T: Hashable>: Hashable {
             
             @usableFromInline
-            internal let pointeeHashValue: Int
+            internal var pointeeHashValue: Int
             
             @usableFromInline
-            internal let pointer: UnsafePointer<T>
+            internal var pointer: UnsafePointer<T>
+
+            @usableFromInline
+            init(pointeeHashValue: Int, pointer: UnsafePointer<T>) {
+                self.pointeeHashValue = pointer.pointee.hashValue
+                self.pointer = pointer
+            }
             
             @inlinable
             internal init(pointer: UnsafePointer<T>) {
-                
-                self.pointeeHashValue = pointer.pointee.hashValue
-                self.pointer = pointer
+                self = TableKey(pointeeHashValue: pointer.pointee.hashValue, pointer: pointer)
             }
             
             
